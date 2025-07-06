@@ -44,6 +44,7 @@ $files = Get-ChildItem -Path ".\dist\Seraphine\*" -Recurse |
 $files | Out-File -FilePath ".\dist\Seraphine\filelist.txt" -Encoding UTF8
 
 if (! $dbg) {
-    7z a $dest\Seraphine.7z .\dist\Seraphine\* -r
+    # 使用 PowerShell 原生 Compress-Archive 打包成zip，剔除7z 
+    Compress-Archive -Path .\dist\Seraphine\* -DestinationPath "$dest\Seraphine.zip"
     rm -r .\dist
 }
