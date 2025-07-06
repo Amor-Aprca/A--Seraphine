@@ -101,13 +101,13 @@ Seraphine 提供的战绩查询相关功能的数据均是由英雄联盟客户�
 如果您有功能上的添加或修改建议，也非常欢迎提出 issue 进行讨论！[PR](https://github.com/Zzaphkiel/Seraphine/pulls) 也大欢迎！
 
 ## 您也可以自己打包可执行文件 📂
-在 `seraphine` 虚拟环境下安装 `Pyinstaller`，并确认环境支持 `7z` 命令
+在 `seraphine` 虚拟环境下安装 `Pyinstaller`
 ```shell
 pip install pyinstaller==5.13
 ```
 执行项目中 `make.ps1` 脚本，通过 `-dest` 参数传入目标文件夹
 ``` shell
-.\make -dest C:/D:/E：
+.\make -dest C:/D:/E： 这里是输入其他位置的地方
 ```
 必须使用其他位置不然可能会报错误
 
