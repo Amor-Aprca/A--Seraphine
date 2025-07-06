@@ -17,7 +17,7 @@
 
 ## 快速上手 🤗
 ### 直接使用打包好的程序
-点击[这里](https://github.com/Zzaphkiel/Seraphine/releases/latest)进入发布页面，在下方找到资源中的 `Seraphine.7z`，点击下载并解压至文件夹中，双击运行其中的 `Seraphine.exe` 即可。
+点击[这里](https://github.com/Amor-Aprca/A--Seraphine/release)进入发布页面，在下方找到资源中的 `Seraphine.zip`，点击下载并解压至文件夹中，双击运行其中的 `Seraphine.exe` 即可。
 
 ### 或通过本地构建
 下载项目源码 `zip` 压缩包解压至文件夹或通过 `git`
@@ -107,13 +107,11 @@ pip install pyinstaller==5.13
 ```
 执行项目中 `make.ps1` 脚本，通过 `-dest` 参数传入目标文件夹
 ``` shell
-.\make -dest .
+.\make -dest C:/D:/E：
 ```
-或直接使用默认值，其为当前目录 `.`
-``` shell
-.\make
-```
-命令结束后在目标文件夹获得 `Seraphine.7z`。
+必须使用其他位置不然可能会报错误
+
+命令结束后在目标文件夹获得 `Seraphine.zip`。
 
 ## Riot 声明 📢
 Seraphine is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc
@@ -189,8 +187,6 @@ Seraphine is not endorsed by Riot Games and does not reflect the views or opinio
   </p>
 
 
-## 交流群
-- Seraphine 交流群（QQ）：[926719775](https://qm.qq.com/cgi-bin/qm/qr?k=ulYfeMNL-GrYzemJyjOq7K1y4YSasBPL&jump_from=webapi&authKey=6Nw8v3gCSswJ6HtoMlqTs2+/nS5llSOgVIs/Hh2Xm0yzNZ0yEIDjvYQqbdjF4wbb)（已满，随缘进群），入群口令：enihpareS
   
 
 ## 许可证 ⚖️
